@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+nav{
+
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
+ul.nav li{
+    display: inline-block;
+}
+div.content{
+    width:970px;
+    margin:auto;
+}
+div#splash{
+    height: 600px;
+    background-color: #263238;
+}
+
+div#about{
+    height: 600px;
+    background-color: #37474F;
+}
+div#projects{
+    height: 600px;
+    background-color: white;
+}
+div#contact{
+    height: 600px;
+    background-color: whitesmoke;
+}
