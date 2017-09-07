@@ -2,11 +2,26 @@
     margin: 0px;
     padding:0px;
 }
-nav{
+/* Links inside the navbar */
+ul.nav li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
 
+/* Main content */
+div.container {
+    margin-top: 40px; /* Add a top margin to avoid content overlay */
+}
+nav{
     height: 40px;
     width: 100%;
     background-color: white;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 
 ul.nav li{
