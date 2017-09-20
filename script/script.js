@@ -109,14 +109,15 @@ window.onload = function () {
 
 
 $(document).ready(function () {
-    $("a.project").click(function(event){
-        console.log("a project clicked")
-        $("html").addClass("noScroll");
-    });
+ 
+    // $("a.project").click(function(event){
+    //     console.log("a project clicked")
+    //     $("html").addClass("noScroll");
+    // });
     
-    $("form.close").submit(function(event){
-        $("html").removeClass("noScroll");
-    })
+    // $("form.close").submit(function(event){
+    //     $("html").removeClass("noScroll");
+    // })
 
      $("h1").fadeIn(2000);
      $('a.nav[href*="#"]')
@@ -157,6 +158,7 @@ $(document).ready(function () {
      });             
     
 });
+
 
 //Scroll Effect
 
