@@ -109,15 +109,31 @@ window.onload = function () {
 
 
 $(document).ready(function () {
- 
-    // $("a.project").click(function(event){
-    //     console.log("a project clicked")
-    //     $("html").addClass("noScroll");
-    // });
+    // if (window.history && window.history.pushState) {
+        
+    //     window.history.pushState('forward', null, './#forward');
     
-    // $("form.close").submit(function(event){
-    //     $("html").removeClass("noScroll");
-    // })
+    //     if($( "html" ).hasClass( "noScroll" )){
+    //         $( "html" ).removeClass( "noScroll");
+    //     }
+        
+    // }
+
+
+    // $(window).on('popstate', function(event) {
+    //     if($( "html" ).hasClass( "noScroll" )){
+    //         $( "html" ).removeClass( "noScroll");
+    //     }
+    // });
+ 
+    $("a.project").click(function(event){
+        console.log("a project clicked")
+        $("html").addClass("noScroll");
+    });
+    
+    $("form.close").submit(function(event){
+        $("html").removeClass("noScroll");
+    })
 
      $("h1").fadeIn(2000);
      $('a.nav[href*="#"]')

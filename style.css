@@ -15,6 +15,11 @@ ul.nav li {
     text-decoration: none;
 }
 
+ul{
+    display: inline-block;
+    float:right;
+}
+
 /* Main content */
 div.container {
     margin-top: 50px; /* Add a top margin to avoid content overlay */
@@ -71,10 +76,20 @@ div#about{
 div#about h1{
     color: #424242;
 }
-div#about h2,h3 {
+div#about h2,h3{
     padding-top:6px;
     font-weight:300;
    
+}
+h4.stack{
+    padding-top:6px;
+    font-weight:300;
+    color:#616161;
+}
+h4{
+    font-weight:300;
+    color:#616161;
+    display: inline-block;
 }
 div#about p{
     color: #424242;
@@ -283,7 +298,7 @@ div.nav{
     margin:auto;
     height:44px;
 }
-button {
+button.close {
     color:white;
     display: inline-block;
     height: 30px;
@@ -293,6 +308,15 @@ button {
     background-color: #FF7043;
     border: solid 2px #FF7043;
   }
+button.info{
+    color:white;
+    display: inline-block;
+    height: 30px;
+    font-size: 14px;
+    line-height: 1.8;
+    background-color: #FF7043;
+    border: solid 2px #FF7043;
+}
 h1.projectHeader{
     font-weight:400;
     color:#424242;
@@ -303,5 +327,14 @@ button:hover{
     border: solid 2px #FBE9E7;
     cursor:pointer;
 }
+ul.requirements li{
+    list-style: none;
+}
+ul.requirements li:before{
+    content:"- ";
+}
 
-
+div.reqList{
+    display: inline-block;
+    margin-right: 74px;
+}
