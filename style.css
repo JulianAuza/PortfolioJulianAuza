@@ -189,7 +189,7 @@ div.contactContent{
 h3.projectNote{
     margin-bottom:8px;
     font-weight:400;
-    color: #616161;
+    color: black;
 }
 h4.projectNoteSub{
     font-weight:400;
@@ -317,6 +317,31 @@ button.info{
     background-color: #FF7043;
     border: solid 2px #FF7043;
 }
+form.projectLink{
+    display:inline-block;
+    margin:auto;
+}
+button.projectLink {
+    color:white;
+    display: inline-block;
+    height: 30px;
+    width:200px;
+    font-size: 14px;
+    line-height: 1.8;
+    background-color: #FF7043;
+    border: solid 2px #FF7043;
+}
+button.githubLink{
+    margin-top:10px;
+    color:#BDBDBD;
+    display: inline-block;
+    height: 30px;
+    width:200px;
+    font-size: 14px;
+    line-height: 1.8;
+    background-color: white;
+    border: solid 2px white;
+}
 h1.projectHeader{
     font-weight:400;
     color:#424242;
@@ -338,3 +363,11 @@ div.reqList{
     display: inline-block;
     margin-right: 74px;
 }
+
+div.ctaProject{
+    padding-top:40px;
+    width:300px;
+    margin:auto;
+    text-align: center;
+}
+
