@@ -342,6 +342,19 @@ button.githubLink{
     background-color: white;
     border: solid 2px white;
 }
+
+button.resumeLink{
+    margin-top:10px;
+    display: inline-block;
+    height: 30px;
+    width:200px;
+    font-size: 14px;
+    line-height: 1.8;
+    color:black;
+    background-color:Transparent;
+    border:none;
+}
+
 h1.projectHeader{
     font-weight:400;
     color:#424242;
