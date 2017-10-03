@@ -98,7 +98,7 @@ div#about p{
 }
 div.mounting{
     padding:20px;
-    width:100%;
+    max-width:970px;
     /* padding-left:150px; */
     padding-top:50px;
     background-color: #F5F5F5;
