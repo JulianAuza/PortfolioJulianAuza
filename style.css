@@ -14,6 +14,9 @@ ul.nav li {
     padding: 14px 14px;
     text-decoration: none;
 }
+a{
+    text-decoration:none;
+}
 
 ul{
     display: inline-block;
@@ -91,6 +94,19 @@ h4{
     color:#616161;
     display: inline-block;
 }
+h2.tileTitle{
+    font-weight:300;
+    color:#616161;
+    margin-top:75px;
+}
+h2.tileTitle3{
+    font-weight:300;
+    color:#616161;
+    margin-top:65px;
+}
+h4.tileText{
+    color:#919191;
+}
 div#about p{
     color: #424242;
     font-weight:300;
@@ -129,7 +145,7 @@ div.aboutContent{
 }
 
 div#projects{
-    height: 650px;
+    height: 950px;
     background-image: url("assets/seigaiha.png");
     background-repeat: repeat;
     padding-top:100px;
@@ -366,8 +382,8 @@ button:hover{
     background-color: #FBE9E7;
     color:#424242;
     border: solid 2px #FBE9E7;
-    cursor:pointer;
 }
+
 ul.requirements li{
     list-style: none;
 }
@@ -394,5 +410,19 @@ div.projectTile{
     display:inline-block;
     margin:10px;
     box-shadow: 2px 2px 6px #616161;
+}
+
+div.projectTile:hover{
+    box-shadow: 2px 3px 12px #616161
+    /* -webkit-filter: grayscale(100%); */
+}
+
+div.projectInfo{
+    display:inline-block;
+    background-color:white;
+    height:200px;
+    width:193px;
+    vertical-align:top;
+    text-align: center;
 }
 
