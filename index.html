@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="script/easing.js"></script>
     <script src="script/script.js"></script>
@@ -20,7 +21,6 @@
             <li><a href="#about" class="nav">About</a></li>
         </ul>
     </div>
-
 </nav>
 
 <canvas class='connecting-dots'></canvas>
@@ -29,8 +29,8 @@
 
     <div id="splash" style="text-align: center">
         <div>
-            <h1 class="splash"> UX DESIGN &amp; DEVELOPMENT </h1>
-            <h4 style="margin-top:7px;color:#BDBDBD;font-size:20px;font-weight:100;">DISCOVER A NEW WAY OF THINKING</h4>
+            <h1 class="splash"> UI | UX DESIGN &amp; DEVELOPMENT</h1>
+            <h4 style="margin-top:15px;color:#BDBDBD;font-size:20px;font-weight:100;">DISCOVER A NEW WAY OF THINKING</h4>
         </div>
     </div>
     <div id="about" class="about">
@@ -48,11 +48,9 @@
                         <h1 class="pageHeader">About</h1>
                         <br>
                         <h2 style="margin-top:3px;"> Hi, I'm Julian!</h2>
-                        <p style="margin-top:10px;"> I am passionate about crafting seamless digital experiences. My background in UX has given me the
-                            ability to solve problems efficiently through research and design. I have recently discovered
-                            my affinity for development which inspired me to complete the full stack development programs
-                            at Coding Dojo. I am currently looking forward to new opportunities that will allow me to learn
-                            new skills and challenge my abilities.</p>
+                        <p style="margin-top:20px;"> I am passionate about crafting seamless digital experiences. My background in UI and UX gives me the
+                        ability to solve problems efficiently through research and design. The unique persepective I have gained through working in design and 
+                        development has given me the insight to efficiently build applications while maintaining design integrity. </p>
                     </div>
                 </div>
 
@@ -63,13 +61,13 @@
         <div class="content">
             <h1 class="pageHeader">My Projects</h1>
             <div style="width:100%;text-align:center;">
-                    <form class="projectLink" action="https://drive.google.com/file/d/0B98n6xP-fd7jdFJWa2VXWnNhd00/view?usp=sharing" method="get"
+                    <form class="projectLink" action="https://drive.google.com/file/d/1orRE73wGXZgizHTK-z2qwSHv-tAo2vOj/view?usp=sharing" method="get"
                         target="_blank">
                         <button class="resumeLink" type="submit" style="color:#757575;margin-top:16px;">View My Resumé </button>
                     </form>
                 </div>
                 
-            <a class="project" href="#kuppons" style="display:inline-block;margin:0px;">
+            <a class="project" href="kuupons.html" style="display:inline-block;margin:0px;">
             <div class="projectContainer" style="width:884px;margin:auto;">
                 <div class="projectTile">
                     <img src="assets/Kuppons.png" style="height:200px;width:200px;display:inline-block;">
@@ -80,17 +78,26 @@
             </a>
 
                 </div>
-                <a class="project" href="#tender">
+                <a class="project" href="keyo.html">
                 <div class="projectTile">
-                    <img src="assets/Tender.png" style="height:200px;width:200px;">
+                    <img src="assets/keyo.jpg" style="height:200px;width:200px;">
                     <div class="projectInfo">
-                        <h2 class="tileTitle">Tender</h2>
-                        <h4 class="tileText">UI/UX Design</h4>
+                        <h2 class="tileTitle">Keyo</h2>
+                        <h4 class="tileText">UI/UX Development</h4>
                     </div>
                 </div>
             </a>
+            <a class="project" href="tender.html">
+                    <div class="projectTile">
+                        <img src="assets/Tender.png" style="height:200px;width:200px;">
+                        <div class="projectInfo">
+                            <h2 class="tileTitle">Tender</h2>
+                            <h4 class="tileText">UI/UX Design</h4>
+                        </div>
+                    </div>
+                </a>
 
-                <a class="project" href="#pinterest" style="display:inline-block;margin:0px;">
+                <a class="project" href="pinterest.html" style="display:inline-block;margin:0px;">
                 <div class="projectTile">
                        <img src="assets/Pinterest.png" style="height:200px;width:200px;display:inline-block;">
                     <div class="projectInfo">
@@ -100,7 +107,7 @@
                     </div>
                 </div>
             </a>
-            <a class="project" href="#tixPix">
+            <a class="project" href="tixPix.html">
                     <div class="projectTile">
                         <img src="assets/TIxPix.png" style="height:200px;width:200px;">
                         <div class="projectInfo">
@@ -110,7 +117,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="project" href="#wagdog">
+                <a class="project" href="wagdog.html">
                     <div class="projectTile">
                            <img src="assets/wagdog.png" style="height:200px;width:200px;">
                             <div class="projectInfo">
@@ -178,550 +185,6 @@
 
 </html>
 
-<a class="lightbox" id="kuppons">
-    <div class="projectDisp">
-        <div class="nav">
-            <h1 class="projectHeader" style="display:inline-block;"> Kuppons </h1>
-
-            <form class="close" action="#projects" style="display:inline-block;float:right;">
-                <button class="close" type="submit">close</button>
-            </form>
-
-        </div>
-        <div class="projectContainer">
-            <div class="content">
-                <h3 class="projectNote">UI/UX Design</h3>
-                <p>
-                    I spoke with my client to discuss an idea for an eCommerce website that focused promoting Amazon products with 
-                    a rebate incentive. The timeline for this project was very tight and as a person with little tech background the 
-                    requirements for the project were very vague. The main goals of my client’s site was to gain the trust of users, 
-                    convert, and also have returning users. My main concerns for this project was my inexperience 
-                    with rebate based commerce and also the vague description of the project which would make it difficult to pinpoint 
-                    the meaning of a successful design. 
-                </p>
-                <p>
-                    I decided to take on this project since it would be my opportunity to work with the client and to
-                    build a list of requirements for the project. I would then need to apply my own skills from working in eCommerce 
-                    and learn about building a trusting relationship with an interface of a site that will be completely foreign to a user. 
-                </p>
-                <br>
-                <h3 class="projectNote"> Research and Planning</h3>
-                <p>I carried out a competitive and heuristic analysis to gain an understanding of the different mental models present in 
-                   different types of users of eCommerce platforms. Going through different sites, I noticed that they all had their own 
-                   efficient way of organizing their information tailored to their user's goals. 
-                </p>
-                <br>
-
-                <h3 class="projectNote">Persona Creation</h3>
-
-                <p>To gather information regarding the mental model of the target users I carried out surveys and interviews that
-                    uncover user's preferences, attitudes, and feelings towards certain features, events, and situations.
-                    The surveys consisted of questions that rated the the user's reactions and attitudes towards certain
-                    features and interactions. The interview questions consisted of open ended questions to dig deeper into
-                    the users mental model and uncover potential areas for innovation. I used the information derived from
-                    surveys and interviews to create three personas that embodied three main user goals that my design will
-                    revolve around.</p><br>
-
-                <h3 class="projectNote">Personas:</h3>
-
-                <div class="personaContainer">
-                    <div class="persona">
-                        <div class="personaimg">
-                            <h4 class="projectNoteSub">Andrea</h4><br>
-                            <img src="assets/Kuppons/amy.png" style="height:200px;">
-                        </div>
-                        <div class="goals">
-                            <h4 class="projectNoteSub">Goals</h4><br>
-                            <ul>
-                                <li> Find new trending items</li>
-                                <li> Look for new accessories</li>
-                                <li> Plan future outfits </li>
-                                <li> Change wardrobe with the season</li>
-                            </ul>
-                        </div>
-                        <div class="description">
-                            <h4 class="projectNoteSub">Description</h4>
-                            <p>This user is a sporadic shopper who is in no rush. She is looking to replenishing her current
-                                stock of items and also open to trying the latest products. She often window shops and takes
-                                her time when shopping for gifts and for herself. She takes pleasure in looking through all
-                                of her choices before making her final decision. All of the marketing emails she receives
-                                are always read and marked.
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="persona">
-                        <div class="personaimg">
-                            <h4 class="projectNoteSub">Jen</h4><br>
-                            <img src="assets/Kuppons/julia.png" style="height:200px;">
-                        </div>
-                        <div class="goals">
-                            <h4 class="projectNoteSub">Goals</h4><br>
-                            <ul>
-                                <li> Pay the lowest price</li>
-                                <li> Find great deals</li>
-                                <li> Find complementary items that would work well together</li>
-                                <li> Buy gifts early for their friends</li>
-                            </ul>
-                        </div>
-                        <div class="description">
-                            <h4 class="projectNoteSub">Description</h4>
-                            <p>
-                                The bargain hunter is a shopper on a mission to find the best deal she can and  she does all of her research to ensure she
-                                is getting the most bang for her buck. She is constantly comparing new items she comes across
-                                to the items she has seen before. A transparent return policy is important since she does
-                                not want to waste time and money on something she might dislike
-                            </p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="persona">
-                        <div class="personaimg">
-                            <h4 class="projectNoteSub">Jake</h4><br>
-                            <img src="assets/Kuppons/jerry.png" style="height:200px;">
-                        </div>
-                        <div class="goals">
-                            <h4 class="projectNoteSub">Goals</h4><br>
-                            <ul>
-                                <li> Save time and money</li>
-                                <li> Only shops when needs something specific</li>
-                                <li> Find item as soon as possible </li>
-                                <li> Easy payment method</li>
-                            </ul>
-                        </div>
-                        <div class="description">
-                            <h4 class="projectNoteSub">Description</h4>
-                            <p>His focus is to find the item he is looking for purchase it and then get back to doing his homework.
-                                He is very busy and has little patience for browsing through a website. This user is a fan
-                                of creating lists filling out planners and getting his tasks done. He only shops when he
-                                needs something specific and has one favorite retailer.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <br>
-                <h3 class="projectNote">Design Process</h3>
-                <div style="text-align: center;">
-                    <img class="border" src="assets/Kuppons/WireFrame.png">
-                </div>
-                <br>
-                <p>My iterative design process starts with the creation a site map and user flows to ensure that all of the
-                    features of the site are accessible through the appropriate navigation. of wire frames that I occasionally
-                    test with my peers to ensure a cohesive and intuitive interface following a lean design method. My next
-                    step is to create low fidelity prototypes that bring the interactions to life and produce a minimum viable
-                    product for initial validation testing.
-                </p>
-                <br>
-                <h3 class="projectNote">Prototyping</h3>
-                <p style="display: inline-block;width: 50%;vertical-align: top;padding-right:20px;">My first steps in prototyping include the creation of a site map to ensure that every feature of the interface
-                    is meaningful and allows users to access essential features of the site. Through site map creation I
-                    am able to visualize the user flow and pin point common drop off points that adversely affect the user
-                    experience. For the final unmoderated remote user testing I wanted to ensure that the interface was intuitive
-                    and allowed users to complete their goals with minimal pain points and efficiency. I compiled a list
-                    of tasks and follow up questions to ensure that the tasks were completed correctly. If the tasks were
-                    completed correctly, there would be a specific code revealed that would allow me to ensure the predicted
-                    path was taken by the user in order to complete the task.
-                </p>
-                <img class="border" src="assets/Kuppons/ticket.png" style="height:345px;display:inline-block;">
-                <br>
-                <h3 class="projectNote">Reflection</h3>
-                <p>While the direction of this project was initially vague from the instruction of my client, I was able to
-                    pin point certain features that would increase conversion on a site that would be completely new to the
-                    user. The most important goal of this project is to create an experience that is familiar and one that
-                    will encourage users to trust the site and convert. This project taught me the importance of working
-                    with lean UX in mind since I had close deadline.Through completing this project I was able to better
-                    understand the elements of flat UI and also work with creating my own scalable pixel perfect icons.​</p>
-
-                <div class="ctaProject">
-                    <form class="projectLink" action="http://bx4jgt.axshare.com" method="get" target="_blank">
-                        <button class="projectLink" type="submit">Open Kuppons Axure</button>
-                    </form>
-                </div>
-
-
-
-
-            </div>
-        </div>
-
-
-
-    </div>
-</a>
-
-<a class="lightbox" id="tender">
-    <div class="projectDisp">
-        <div class="nav">
-            <h1 class="projectHeader" style="display:inline-block;"> Tender </h1>
-
-            <form class="close" action="#projects" style="display:inline-block;float:right;">
-                <button class="close" type="submit">close</button>
-            </form>
-
-        </div>
-        <div class="projectContainer">
-            <div class="content">
-                <h3 class="projectNote">UX Research &amp; Design </h3>
-                <p>
-                    I worked in a team of four people creating a iPad based POS system that would provide the best experience for the user and
-                    allow them to confidently and efficiently enter transactions. This extensive process incorporated the
-                    various elements of user centered design such as user testing, competitive analysis, and heuristic analysis.
-                </p>
-                <br>
-                <h3 class="projectNote">Research</h3>
-                <p>Our first step was identifying key features that users needed to reach their main goals with our product.
-                    I was responsible for conducting user interviews and surveys that helped us identify these features.
-                    Then a card sorting exercise was conducted to better understand the user's informational mind set. My
-                    group then conducted an A/B testing to track user's reactions and behaviours towards different visual
-                    design aspects. In addition, my team conducted a competitive analysis in order to evaluate our products
-                    functionality in comparison with current POS systems out on the market.
-                </p>
-                <br>
-
-                <h3 class="projectNote">Design</h3>
-                <p>I worked on many aspects in the iterative design process including the selection of a muted color scheme
-                    and the placement of app features. We collaborated and had multiple brainstorming sessions before creating
-                    mock ups for us to defend our own ideas. After collaborating and meeting with our manager, we were able
-                    to recieve the approval to create a high fidelity prototype with invision.
-                </p>
-                <br>
-                <div style="width:940px;margin:auto;">
-                    <img class="border" src="assets/Tender/login.jpg" style="height:219px;width:290px;display:inline-block;margin:10px;">
-                    <img class="border" src="assets/Tender/dashboard.jpg" style="height:219px;width:290px;display:inline-block;margin:10px;">
-                    <img class="border" src="assets/Tender/data.jpg" style="height:219px;width:290px;display:inline-block;margin:10px;">
-                </div>
-                <br>
-
-                <h3 class="projectNote">User Testing</h3>
-                <p>I did some independent research before assisting in the usability process which included participating in
-                    user testing sessions hosted by Depaul Human Computer Interaction students. The Depaul user testing process
-                    served as a model for our own. We noted the format of their user testing script and incorporated our
-                    own ideas to make it more effective for our own case. Our team then went on to recruit target users as
-                    well as fringe cases to test our prototype.
-                </p>
-                <br>
-                <form action="https://drive.google.com/file/d/0B98n6xP-fd7jb1ExRFktX2RKejA/view?usp=sharing" method="get" target="_blank">
-                    <button class="info" type="submit" style="padding-right:10px;padding-left:10px;">View User Testing Script</button>
-                </form>
-                <br>
-
-                <div style="height:500px;">
-                    <div>
-                        <h3 class="projectNote">Final Features</h3>
-                        <ul style="padding-left:30px;width:45%;float:left;">
-                            <li>credit card, gift card, and cash payments</li>
-                            <li>receipt archive</li>
-                            <li>admin panel</li>
-                            <li>tax settings</li>
-                            <li>receipt (paper or electronic)</li>
-                            <li>coupons and discounts</li>
-                            <li>cash drawer operation</li>
-                            <li>order history </li>
-                            <li>inventory management (add, edit, delete, categories)</li>
-                            <li>Till management</li>
-                            <li>ZReport</li>
-                            <li>backend dashboard</li>
-                            <li>multiple printers</li>
-                            <li>employee management (clockin/out, login, etc)</li>
-                            <li>void/return</li>
-                            <li>special request</li>
-                            <li>takeout</li>
-                            <li>delivery</li>
-                            <li>multiple tickets open</li>
-                        </ul>
-                    </div>
-
-                    <img class="border" src="assets/Tender/UI.png" style="width:50%;display:inline-block;margin:10px;vertical-align:top;float:right;margin-top:45px;">
-                </div>
-
-                <br>
-
-
-
-                <h3 class="projectNote" style="margin-top:15px;width:100%;">Reflection</h3>
-                <p> This experience has taught me a lot about working together in a group and the benefits of working in a collaborative
-                    space. I learned an extensive amount of information about user experience design and aspects of user
-                    interface design that increases affordability in a product. I know how to conduct user test to avoid
-                    my own biases and truly uncover user needs. I was able to design solutions that helped users and the
-                    business meet their goals.</p>
-
-
-                <div class="ctaProject">
-                    <form class="projectLink" action="https://projects.invisionapp.com/share/AV1KFHACH#/screens" method="get" target="_blank">
-                        <button class="projectLink" type="submit">Open Tender Invision</button>
-                    </form>
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-</a>
-
-<a class="lightbox" id="tixPix">
-    <div class="projectDisp">
-        <div class="nav">
-            <h1 class="projectHeader" style="display:inline-block;"> TixPix </h1>
-
-            <form class="close" action="#projects" style="display:inline-block;float:right;">
-                <button class="close" type="submit">close</button>
-            </form>
-
-        </div>
-        <div class="projectContainer">
-            <div class="content">
-                <h3>Full-Stack Development</h3>
-                <h4 class="stack">Python/Django</h4>
-                <p>
-                    My team was assigned the task of creating a web app similar to "Stubhub". We had many things to consider because of the database
-                    heavy nature of the web app. We first came up with features essential to the user experience which we
-                    then narrowed down to an MVP that became our main focus. We developed several user stories from the MVP
-                    list of features.
-                </p>
-                <br>
-                <h3>My User Stories</h3>
-                <p>For this project I was responsible for the Login/Signup, Checkout, and Shopping Cart touch points. Before
-                    starting any of the coding I wrote out user journey maps that would allow me to identify any blockers
-                    which would give me the most efficient work-flow for my user stories.
-                </p>
-                <br>
-
-                <div style="width:80%;margin:auto;">
-                    <h3 style="font-weight:300;margin-left:250px;">Requirements:</h3>
-                    <br>
-                    <div class="reqList">
-                        <h3 style="display:inline-block;">Check-out</h3>
-                        <br>
-                        <ul class="requirements" style="padding-left:10px;margin-top:3px;display:inline-block;">
-                            <li>Shopping Cart</li>
-                            <li>Tickets</li>
-                            <li>Buyers</li>
-                            <li>Sellers</li>
-                            <li>Ticket Page</li>
-                            <li>Ticket Change Status</li>
-                        </ul>
-                    </div>
-                    <div class="reqList">
-                        <h3 style="display:inline-block;">Log in | Register</h3>
-                        <br>
-                        <ul class="requirements" style="padding-left:10px;margin-top:3px;display:inline-block;">
-                            <li>Login/Reg form</li>
-                            <li>Database Creation</li>
-                            <li>User Check</li>
-                            <li>Password Confirmation</li>
-                            <li>User model</li>
-                            <li>Home Page</li>
-                        </ul>
-                    </div>
-                    <div class="reqList">
-                        <h3 style="display:inline-block;">Shopping Cart</h3>
-                        <br>
-                        <ul class="requirements" style="padding-left:10px;margin-top:3px;display:inline-block;">
-                            <li>Sellers</li>
-                            <li>Buyers</li>
-                            <li>Front End Cart</li>
-                            <li>Add/Remove Items</li>
-                            <li>Change Ticket Avaliablity</li>
-                            <li>Payment Confirmation</li>
-                        </ul>
-                    </div>
-                    <br>
-                    <br>
-                </div>
-                <br>
-                <div style="height:300px;">
-                    <div style="width:450px;display:inline-block;">
-                        <p>
-                            After listing requirements and identifying blockers I decided to started working on the Log In/Register user story since
-                            it was at the very beginning of the experience. This user story also did not have any current
-                            blockers that I would have needed my other team members to complete.
-                        </p>
-                        <br>
-                        <p>
-                            I started with building the user models and then validations. The validations, if not met, would display an error message
-                            on the client side informing the user of missing or required fields. In addition, I also built
-                            the models for the checkout process and also the logic behind adding and removing items to the
-                            cart.
-                        </p>
-                    </div>
-                    <img class="border" src="assets/TixPIx/journeyMap.jpg" style="width:50%;display:inline-block;margin:10px;vertical-align:top;float:right;">
-                </div>
-
-                <h3>Post-it Note Planning</h3>
-                <div style="width:875px;margin:auto;text-align:center;">
-                    <img class="border" src="assets/TixPIx/workFlow.png" style="width:100%">
-                </div>
-                <p>
-                    My Team also utilized post-it notes to to plan out the most effective work flow. We were able to visualize our blockers and
-                    work on our sections of the project as the blockers were completed. We were also able to prioritize features
-                    as part of the MVP. Features essential to the MVP are on the blue post-its, the yellow post-its represent
-                    add-ons that would improve functionality of the MVP Features, and finally the orange post-its are the
-                    features not necessary to the MVP but are optional.
-
-                </p>
-                <br>
-
-                <h3>Styling | interactions</h3>
-                <div style="width:875px;margin:auto;text-align:center;">
-                    <div style="width:45%;display:inline-block;">
-                        <p> Browsing </p>
-                        <img class="border" src="assets/gifs/tixPix/tixpix1.gif" style="height:210px;display:inline-block;margin:10px;vertical-align:top">
-                    </div>
-                    <div style="width:45%;display:inline-block;">
-                        <p> Check-Out </p>
-                        <img class="border" src="assets/gifs/tixPix/tixpix2.gif" style="height:210px;display:inline-block;margin:10px;vertical-align:top">
-                    </div>
-                </div>
-                <br>
-                <p>
-                    Since design was not the main focus of the project. I took innitiative and added styling as I built out my user stories.
-                    I appreciate the aesthetic material design which I incorporated onto the pages I built. I ran through
-                    my color scheme with my group and they were very receptive of my ideas. I placed teal and variations
-                    of white as the main color scheme and added a vibrant orange as a call to action button. I made sure
-                    that the site was interactive and added hover states to clickable entities such as the tiles in the search
-                    results.
-                </p>
-
-                <div class="ctaProject">
-                    <form class="projectLink" action="https://enigmatic-plains-33835.herokuapp.com/" method="get" target="_blank">
-                        <button class="projectLink" type="submit">Open TixPix App</button>
-                    </form>
-
-                    <form class="projectLink" action="https://github.com/JulianAuza/tixpix2" method="get" target="_blank">
-                        <button class="githubLink" type="submit">View Git Repository</button>
-                    </form>
-
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
-</a>
-
-<a class="lightbox" id="pinterest">
-    <div class="projectDisp">
-        <div class="nav">
-            <h1 class="projectHeader" style="display:inline-block;"> Pinterest </h1>
-
-            <form class="close" action="#projects" style="display:inline-block;float:right;">
-                <button class="close" type="submit">close</button>
-            </form>
-
-        </div>
-        <div class="projectContainer">
-            <div class="content">
-                <h3>Full-Stack Development</h3>
-                <h4 class="stack">M.E.A.N (MongoDB, Express, Angular 2, Node.js)</h4>
-                <br>
-                <p>
-                    My team worked on a project that is modeled after the pinterest social media site.I was in charge of putting together the
-                    front end styling of this project and I wanted to challenge my front-end development skills by structuring
-                    the client side to be as close to the pinterest website as possible using CSS functions. 
-                </p>
-                <br>
-                <h3>Planning</h3>
-                <p> The first step in planning was going through the pinterest site and identifying the interactions that would need to
-                    be created to give our product the same look and feel of the pinterest website. After listing all of the features, my team 
-                    then cut down the list to a shorter list essential to the MVP.
-                </p>
-                <p> Before starting any work on the project my team used post-it note planning to identify blockers and find the most effective
-                    progression of work. We then each chose to take over several user stories that we would all build from database
-                    to the client side. We then proceeded to prioritize features of the project using the MoSCoW method and build pieces
-                    of the project that had the least number of blockers.
-                </p>
-                <br>
-
-                <h3>My User Stories</h3>
-                <p>
-                    In addition to working on the front end styling I was responsible for the board creation, exploring, and the profile page
-                    user stories. I recognized that everyone on of my stories had a blocker that was dependent on the creation
-                    of the user and also the pins created by said users. I communicated to my team that
-                    I would initially work the front end styling until the models that I needed were created and I would
-                    be able to grab pins to place into the boards.
-                </p>
-                <br>
-                <h3>Daily Workflow</h3>
-                <p>
-                    Each day my team conducted stand-ups where we talked about our progress into our sections of the project and also if we needed
-                    any help from one another. We also had end of day meetings where we talked about the goals we had met and our expectations for 
-                    the next day to stay on track with our deadline.
-                </p>
-                <br>
-
-                <h3>Result</h3>
-                <p>
-                    Below is a video showcasing the functionality of our app. I am currently working on deploying my project onto heroku. In the
-                    video, I am going through the log-in process, board creation, adding pins to the board, and going through
-                    the explore page where the pins are filtered according to the categories listed on the left of the screen.
-                </p>
-                <br>
-                <br>
-                <div style="width:560px;margin:auto;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0xUuM1wtRXw" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="ctaProject">
-                    <form class="projectLink" action="https://github.com/JulianAuza/pinterestD" method="get" target="_blank">
-                        <button class="githubLink" type="submit">View Git Repository</button>
-                    </form>
-                </div>
-
-                <h3>Retrospective</h3>
-                <br>
-                <h4 class="stack">Positives</h4>
-                <p>
-                    The team worked very well with communication with the aid of daily stand ups that helped each of us gain perspective and an understanding of 
-                    where our project was realistically heading. Our team was also able to do a lot of our own research with discovering solutions to problems that 
-                    were not covered in our original MEAN stack documentation.
-                </p>
-                <br>
-                <h4 class="stack">Deltas</h4>
-                <p>
-                    There was not a very clear division of labor since the MEAN stack was more complicated than we initially had planned. Our team ran into
-                    multiple errors that required our instructors assistance in order to resolve the problem. In the middle of our project, the team pushed their 
-                    work on to github which caused the web to crash in each of our machines. We could not figure out the issue until an instructor got involved and
-                    identified that the dist file was not being ignored in our git repository.
-                </p>
-                <p>
-                    There were also multiple times where my work depended on my team mate's work where they had taken longer to complete where I stepped in and
-                    completed their part for them. I also felt that we could have been more efficient in our planning where we would not have needed to work on essential
-                    features till the last minute before our project was being presented.
-                </p>
-                <br>
-                <h3>Challenges</h3>
-                <br>
-                <h4 class="stack">Exploration Page</h4>
-                <p>
-                    The explore page was a challenge because of the different calls needed to filter through the list of pin object in the database. My initial
-                    approach was to use different calls that would return a list of pins dependent on the conditional statements of the 
-                    method. I was able to pull pins from the database using an HTTP request and then traversed through the data using an ng for in loop. As 
-                    for as styling I was able to build a display using CSS columns to mimic the display on pinterest. Each pin has the functionality of being added 
-                    onto a board. I then needed to create a way to filter through the pins. Instead of a completely new http request I wrote html code 
-                    that reloaded each component with an ng conditional statement to only display pins related to the category being highlighted.
-                </p>
-                <br>
-                <h4 class="stack">Adding Pins to Boards</h4>
-                <p>
-                    I had to build the functionality of being able to add pins to the user created boards. My initial approach was to build a light box 
-                    interaction using javascript but this was not possible since I had limited time and the way angular works is that the light box would have had to 
-                    be a completely new component all together. With limited time I looked through my resources and came across documentation on modals. I was able 
-                    to build a modal with an ID tag that is linked to an anchor tag. I then added css styling in order to darken the background to simulate a light 
-                    box interaction. I was then faced with the challenge of building interactions in the "light box" without nesting the anchor tags. Each 
-                    interaction needed to be an input which sent information to the server and carried out the logic that added the pin into the board.
-                </p>
-
-
-
-
-            </div>
-        </div>
-
-
-
-    </div>
-</a>
 
 <a class="lightbox" id="wagdog">
     <div class="projectDisp">
@@ -734,116 +197,7 @@
 
         </div>
         <div class="projectContainer">
-            <div class="content">
-                <h3>Full-Stack Development</h3>
-                <h4 class="stack">C# | ASP.NET</h4>
-                <br>
-                <p>
-                    My team worked on a project modeled after match.com which is a popular dating site. My team decided to go the 
-                    creative route and tackle the problem from a different angle. We decided to build a product called "Who's A Good Dog" (WAG Dog) for the niche dog
-                    owners that create social media profiles for their dogs. The challenge of converting the preferences of human 
-                    users on match.com to the dog preferences in WAG dog was appealing and we enjoyed ourselves creating this app.
-                </p>
-                <br>
-                <h3>Planning</h3>
-                <p> The first stages of app development involved an analysis of the match.com site and uncovering the features needed 
-                    for users to achieve their goals. The team collectively went into match.com, created profiles, and then compared
-                    notes on different functionalities of the site. As a team we were able to list all of the features on a white board
-                    and point out the essential features for our MVP. Keeping the MVP in mind, we were able to convert the features into
-                    full user stories that represented a user task that each of us would be building from database all the way to the client-facing
-                    interface. 
-                </p>
-                <br>
-
-                <h3>My User Stories</h3>
-                <p>
-                   My section of the project included developing the view of your own and other's profiles, messaging and sending winks, viewing and
-                   filtering results, and finally, I was responsible for the design and development of the navigation. In order to effectively carry out
-                   my tasks, I planned out a journey map which consisted of multiple touch points the user would come accross while using
-                   our app. By doing so, I was able to identify blockers in my work flow which then led me to work on the navigation first since this task
-                   had no dependency on any other feature of the site.
-                </p>
-                <br>
-                <h3>Building Models</h3>
-                <div style="width:875px;margin:auto;text-align:center;">
-                        <img class="border" src="assets/wagDog/models.jpg" style="width:100%">
-                </div>
-                <br>
-                <p>
-                    My team recognized that the relationships between preferences and the users would be very complicated which is what led us to carefully
-                    plan out our models before hand. We were able to analyze different join tables necessary for the site's functionality which allowed us to
-                    focus on our own tasks once our data base was constructed. Towards the end of the project my team member identified a crucial issue with the models but
-                    we were quickly able to resolve the problem through effective planning and communication.
-                </p>
-                <br>
-                <h3>Project Scope</h3>
-                <p>
-                    We conducted daily stand-ups in order for us to maintain an open line of communication. While building on our own sections of the app
-                    , we all realized that a lot of our user stories had touch points that were dependent on one another's work. For example, I would not be able to 
-                    work on the sending and recieving of messages until the user entities were created. Our group decided to hold three meetings a day which would allow us to keep track of 
-                    each other's progress. This proved very useful since it allowed us to align our work flows with one another which allowed us to be more productive and 
-                    also keep our merge-conflicts to a minimum. 
-                </p>
-                <br>
-                <h3>Styling</h3>
-                <p>
-                    One of my team members decided to build a style guide with basic functions and styles that we as a team decided to follow. I was able to experience
-                    developing visual elements that were not part of my own vision. I found that following a style guide allowed me to be more objective in the development 
-                    of my own featues. While I was not the main stylist of the site I was able to assist by applying my CSS skills to the search pages, search filtering, messaging,
-                    and the profile pages.
-                </p>
-                <br>
-                <h3>App Demo</h3>
-                <p>
-                   I have included a walkthrough of our app in a video below since the deployment through heroku is still in progress. I am walking through the log in / registration process
-                   viewing matches, sorting, and sending messages. Our users are also able to post pictures, update their profile information, and block other users.
-                </p>
-                <br>
-                <br>
-                <div style="width:560px;margin:auto;">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nvaNJlZUU6g" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="ctaProject">
-                    <form class="projectLink" action="https://github.com/JulianAuza/wagdog" method="get" target="_blank">
-                        <button class="githubLink" type="submit">View Git Repository</button>
-                    </form>
-                </div>
-                <h3>Retrospective</h3>
-                <br>
-                <h4 class="stack">Positives</h4>
-                <p>
-                    My team did a great job of effective planning where we only had to re structure our models a few times. With all of the different relationships 
-                    required from the database we were all diligent in our planning and labeled foreign keys efficiently which led to a smooth integreation of our
-                    pieces. Eventhough we needed to overlap and complete each other's work we were able to do so efficiently through effective and constant communication.
-
-                    Since this is our first strongly typed language, my group did an excellent job maintaining the integrity of our app by synchronized git pushing and also 
-                    conflict management. We managed to resolve each of our issues independently and make good use of our time.
-                </p>
-                <br>
-                <h4 class="stack">Deltas</h4>
-                <p>
-                    With this project I decided to not take on the breadth of the styling work which was assigned to my other two team members but towards the end of the 
-                    project the styling was passed on to me. I felt that as a designer I should have communicated my process to them more efficiently so that it would have been
-                    easier to build a consistent style guide. I found myself creating multple classes to manipulate certain elements that should have been unified.
-                </p>
-                <br>
-                <h3>Challenges</h3>
-                <br>
-                <h4 class="stack">Filtering Users</h4>
-                <p>
-                    Since I was in charge of the display of all users on the home page, I took on the interaction of ebing able to filter users. I initally reloaded the page with each
-                    request. I felt that this was not a smooth interaction for the user so I built separate HTML pages for each query that would display using jQuery.
-                </p>
-                <br>
-                <h4 class="stack">Messaging/h4>
-                <p>
-                    My messaging interaction came as a struggle since I am not the best with databases. I needed to create a table for messages which then needed to be pulled 
-                    into the client side while being able to view the message and the sender. I feel that I could have been more efficient in my code in reducing the amount of nested 
-                    loops in order to achieve the end result.
-                </p>
-
-
-            </div>
+          
         </div>
 
 
