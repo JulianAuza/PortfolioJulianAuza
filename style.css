@@ -40,7 +40,7 @@ nav{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    box-shadow: 0px 1px 6px #212121;
+    box-shadow: 0px 1px 6px #21212168;
     z-index: 900;
 }
 
@@ -123,14 +123,14 @@ div.mounting{
     margin:auto;
     background-color: #F5F5F5;
     height:470px;
-    box-shadow: 2px 2px 6px black;
+    box-shadow: 0px 1px 6px #21212168;
 }
 div.imgContainer{
     display:inline-block;
     height: auto;
 }
 div.imgContainer img.pic{
-    box-shadow: 2px 2px 6px #616161;
+    box-shadow: 0px 1px 6px #21212168;
     border:9px solid #F5F5F5;
 }
 
@@ -148,7 +148,6 @@ div.aboutContent{
 }
 
 div#projects{
-    height: 950px;
     background-image: url("assets/seigaiha.png");
     background-repeat: repeat;
     padding-top:100px;
@@ -179,7 +178,7 @@ ul.projects li div.project{
     background-color: whitesmoke;
     display: inline-block;
     margin-top:60px;
-    box-shadow: 2px 2px 6px #616161;
+    box-shadow: 0px 1px 6px #21212168;
     border:5px solid #F5F5F5;
     vertical-align: top;
     
@@ -204,7 +203,7 @@ div.contactContent{
     width:750px;
     height: 500px;
     background-color: whitesmoke;
-    box-shadow: 0px 0px 6px black;
+    box-shadow: 0px 1px 6px #21212168;
     padding:30px;
 }
 h3.projectNote{
@@ -251,12 +250,12 @@ div.personaimg{
 }
 
 div.personaimg img{
-    box-shadow: 2px 2px 6px #616161;
+    box-shadow: 0px 1px 6px #21212168;
     border:9px solid white;
 }
 
 .border{
-    box-shadow: 2px 2px 6px #616161;
+    box-shadow: 0px 1px 6px #21212168;
     border:9px solid white;
 }
 
@@ -327,7 +326,7 @@ div.nav{
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    box-shadow: 0px 1px 6px #212121;
+    box-shadow: 0px 1px 6px #21212168;
     z-index: 900;
 }
 .button{
@@ -422,11 +421,11 @@ div.projectTile{
     background-color:white;
     display:inline-block;
     margin:10px;
-    box-shadow: 2px 2px 6px #616161;
+    box-shadow: 0px 1px 6px #21212168;
 }
 
 div.projectTile:hover{
-    box-shadow: 2px 3px 12px #616161
+    box-shadow: 2px 3px 12px #6161616a
     /* -webkit-filter: grayscale(100%); */
 }
 
