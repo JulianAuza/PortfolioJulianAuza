@@ -4,38 +4,50 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script/easing.js"></script>
     <script src="script/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 </head>
 <nav>
     <div class="content">
-        <ul class="nav">
-            <!-- <li><a href="#contact" class="nav">Contact</a></li> -->
-            <li class="navIcon" style="margin-top:11px;padding:2px;">
-                <a href="https://github.com/JulianAuza" target="_blank">
-                    <img src="assets/github.png" style="height:25px;width:auto;display:inline-block;padding:2px;opacity:.8;">
-                </a>
-            </li>
-            <li class="navIcon" style="margin-top:11px;padding:2px;margin-right:8px;">
-                <a href="https://www.linkedin.com/in/JulianAuza/" target="_blank">
-                    <img src="assets/linkedin.png" style="height:25px;width:auto;display:inline-block;padding:2px;opacity:.7;">
-                </a>
-            </li>
-            <li>
-                <a href="https://drive.google.com/file/d/1eUpWhdKsd_coWxGmnaJxiGO31Upma3GW/view?usp=sharing" class="nav">Resumé</a>
-            </li>
-            <li>
-                <a href="#projects" class="nav">Projects</a>
-            </li>
-            <li>
-                <a href="#about" class="nav">About</a>
-            </li>
-        </ul>
-    </div>
+        <div style='margin:auto;display:inline-block;' class='col-xs-12'>
+            <div class='col-xs-3'>
+                <ul class='name' style='float:left;'>
+                    <a style="height:25px;width:auto;display:inline-block;padding-top:13px;opacity:.7;font-size:20px;">JULIAN
+                        <strong>AUZA</strong>
+                    </a>
+                </ul>
+            </div>
+            <div class='col-xs-12 col-md-9'>
+                <ul class="nav" style='margin:auto;width:70%;'>
+                    <!-- <li><a href="#contact" class="nav">Contact</a></li> -->
+                    <li class="navIcon" style="margin-top:11px;padding:2px;">
+                        <a href="https://github.com/JulianAuza" target="_blank">
+                            <img src="assets/github.png" style="height:25px;width:auto;display:inline-block;padding:2px;opacity:.8;">
+                        </a>
+                    </li>
+                    <li class="navIcon" style="margin-top:11px;padding:2px;margin-right:8px;">
+                        <a href="https://www.linkedin.com/in/JulianAuza/" target="_blank">
+                            <img src="assets/linkedin.png" style="height:25px;width:auto;display:inline-block;padding:2px;opacity:.7;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1eUpWhdKsd_coWxGmnaJxiGO31Upma3GW/view?usp=sharing" class="nav">Resumé</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="nav">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 </nav>
 
 <canvas class='connecting-dots'></canvas>
@@ -50,35 +62,32 @@
     </div>
     <div id="about" class="about">
         <div class="content">
-            <div class="mounting">
-                <div style="margin:auto; max-width:681px; height:400px;">
-                    <div class="imgContainer" style="text-align:center;">
-                        <img class="pic col-xs-12" src="assets/propic.jpg" style="height:300px;width:auto;display:inline-block">
-                        <br>
-                        <div style="width:70px;margin:auto;margin-bottom:0px;padding:0px; margin-top:5px;">
-                        </div>
-                        <a style="text-decoration:none; color:#424242;"> julianauza@gmail.com </a>
-                    </div>
-                    <div class="aboutContent">
+            <div class="row mounting col-md-12">
+                    <div class='col-xs-12' style='margin:auto;padding-bottom:25px;'>
                         <h1 class="pageHeader">About</h1>
                         <br>
-                        <h2 style="margin-top:3px;"> Hi, I'm Julian!</h2>
-                        <p style="margin-top:20px;"> I am passionate about crafting seamless digital experiences. My background in UI and UX gives me
-                            the ability to solve problems efficiently through research and design. The unique perspective
-                            I have gained through working in design and development has given me the insight to efficiently
-                            build applications while maintaining design integrity. </p>
+                        <div class="imgContainer col-md-3" style="text-align:center;">
+                            <img class="pic" src="assets/propic.jpg" style="height:300px;width:auto;display:inline-block">
+                            <br>
+                            <a style="text-decoration:none; color:#424242;"> julianauza@gmail.com </a>
+                        </div>
+                        <div class="aboutContent col-md-9" style='padding:10px 40px 0px;'>
+                            <br>
+                            <h2 style="margin-top:3px;"> Hi, I'm Julian!</h2>
+                            <p style="margin-top:20px;"> I am passionate about crafting seamless digital experiences. My background in UI and UX gives
+                                me the ability to solve problems efficiently through research and design. The unique perspective
+                                I have gained through working in design and development has given me the insight to efficiently
+                                build applications while maintaining design integrity. </p>
+                        </div>
                     </div>
-                </div>
-
             </div>
         </div>
     </div>
     <div id="projects">
         <div class="content">
-            <h1 class="pageHeader">My Projects</h1>
+            <h1 class="pageHeader col-xs-12">My Projects</h1>
             <div style="width:100%;text-align:center;">
-                <form class="projectLink" action="https://drive.google.com/file/d/1eUpWhdKsd_coWxGmnaJxiGO31Upma3GW/view" method="get"
-                    target="_blank">
+                <form class="projectLink" action="https://drive.google.com/file/d/1eUpWhdKsd_coWxGmnaJxiGO31Upma3GW/view" method="get" target="_blank">
                     <button class="resumeLink" type="submit" style="color:#757575;margin-top:16px;">View My Resumé </button>
                 </form>
             </div>

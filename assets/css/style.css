@@ -63,7 +63,6 @@ a.projectName{
 }
 
 div.content{
-    width:970px;
     margin:auto;
 }
 div#splash{
@@ -73,8 +72,10 @@ div#splash{
 
 
 div#about{
+    width:100%;
+    display:inline-block;
     padding:60px;
-    height: 600px;
+    height:100%;
     background-color: #455A64;
     
 }
@@ -117,16 +118,14 @@ div#about p{
 }
 div.mounting{
     padding:20px;
-    max-width:970px;
+    height:100%;
     /* padding-left:150px; */
     padding-top:50px;
     margin:auto;
     background-color: #F5F5F5;
-    height:470px;
     box-shadow: 0px 1px 6px #21212168;
 }
 div.imgContainer{
-    display:inline-block;
     height: auto;
 }
 div.imgContainer img.pic{
@@ -136,10 +135,7 @@ div.imgContainer img.pic{
 
 div.aboutContent{
     display: inline-block;
-    width: 400px;
-    height:300px;
     vertical-align: top;
-    margin-left:60px;
 }
 .pageHeader{
     text-align:center;
@@ -148,7 +144,7 @@ div.aboutContent{
 }
 
 div#projects{
-    background-image: url("assets/seigaiha.png");
+    background-image: url("../seigaiha.png");
     background-repeat: repeat;
     padding-top:100px;
     padding-bottom:60px;
@@ -440,4 +436,7 @@ div.projectInfo{
 
 .navIcon:hover{
     opacity: .8;
+}
+.padding-20{
+    padding:20px;
 }
