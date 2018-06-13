@@ -1597,10 +1597,19 @@ pre code {
     display:none;
   }
   ul.nav{
+    font-size:25px;
     float:none;
     margin:auto;
     display:inline-block;
   }
+  /* body{
+    font-size:18px;
+  } */
+  /* ul.nav{
+    float:right;
+    margin:auto;
+    display:inline-block;
+  } */
   /* .container {
     width: 970px;
   } */
