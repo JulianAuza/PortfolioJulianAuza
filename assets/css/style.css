@@ -30,6 +30,10 @@ ul{
     float:right;
 }
 
+.padding-sides-30{
+    padding-left:30px;
+    padding-right:30px;
+}
 /* Main content */
 div.container {
     margin-top: 50px; /* Add a top margin to avoid content overlay */
@@ -302,6 +306,7 @@ div.projectDisp{
     
 }
 div.projectContainer{
+    max-width: 884px;
     margin:auto;
     overflow: scroll;
     padding:20px;
@@ -392,7 +397,14 @@ button.resumeLink{
 h1.projectHeader{
     font-weight:400;
     color:#424242;
+    height:25px;
+    width:auto;
+    display:inline-block;
+    padding-top:13px;
+    opacity:.9;
+    font-size:20px;
 }
+
 button:hover{
     background-color: #FBE9E7;
     color:#424242;
