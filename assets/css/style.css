@@ -308,7 +308,6 @@ div.projectDisp{
 div.projectContainer{
     max-width: 884px;
     margin:auto;
-    overflow: scroll;
     padding:20px;
     font-weight:300;
 }
