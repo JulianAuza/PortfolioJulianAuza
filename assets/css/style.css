@@ -151,8 +151,7 @@ div.aboutContent{
 }
 
 div#projects{
-    background-image: url("../seigaiha.png");
-    background-repeat: repeat;
+    background-color: #F5F5F5;
     padding-top:100px;
     padding-bottom:60px;
 }
