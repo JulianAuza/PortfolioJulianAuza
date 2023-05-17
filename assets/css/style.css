@@ -131,7 +131,6 @@ div.mounting{
     /* padding-left:150px; */
     padding-top:50px;
     margin:auto;
-    background-color: #F5F5F5;
 }
 div.imgContainer{
     height: auto;
@@ -151,7 +150,8 @@ div.aboutContent{
 }
 
 div#projects{
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
+    background-image: url(../seigaiha1.png);
     padding-top:100px;
     padding-bottom:60px;
 }
@@ -453,3 +453,22 @@ div.projectInfo{
 .padding-20{
     padding:20px;
 }
+.mb_parallax_container {
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .mb_parallax_overlay {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color:rgba(0,0,0,.8);
+  }
+  
+  
+  #mb_parallax_one {
+    background-image: url(../Laptop.jpeg);
+  }
