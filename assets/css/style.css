@@ -487,10 +487,10 @@ div.projectInfo{
     height: 100%;
     width: 100%;
     margin: auto;
-    background-color:rgba(0,0,0,.8);
+    background-color:none;
   }
   
   
   #mb_parallax_one {
-    background-image: url(../Laptop.jpeg);
+    background-image: url(../Portfoliobg.png);
   }
