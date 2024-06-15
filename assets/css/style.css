@@ -447,10 +447,8 @@ div.ctaProject{
 }
 
 div.projectTile{
-    width:400px;
-    height:200px;
+    height:400px;
     background-color:white;
-    display:inline-block;
     margin:10px;
     box-shadow: 0px 1px 6px #21212168;
 }
@@ -464,8 +462,7 @@ div.projectInfo{
     display:inline-block;
     background-color:white;
     height:200px;
-    width:193px;
-    vertical-align:top;
+    width:100%;
     text-align: center;
 }
 
@@ -487,10 +484,9 @@ div.projectInfo{
     height: 100%;
     width: 100%;
     margin: auto;
-    background-color:none;
   }
   
   
   #mb_parallax_one {
-    background-image: url(../Portfoliobg.png);
+    background-image: url(../Porfoliobackg1.png);
   }
