@@ -322,6 +322,7 @@ div.projectDisp{
     
 }
 div.projectContainer{
+    animation: transitionIn 0.75s;
     max-width: 1000px;
     margin:auto;
     padding-top:50px;
@@ -359,8 +360,8 @@ div.nav{
     width:60px;
     font-size: 14px;
     line-height: 1.8;
-    background-color: #FF7043;
-    border: solid 2px #FF7043;
+    background-color: #F4511E;
+    border: solid 2px #F4511E;
   }
 button.info{
     color:white;
@@ -368,8 +369,8 @@ button.info{
     height: 30px;
     font-size: 14px;
     line-height: 1.8;
-    background-color: #FF7043;
-    border: solid 2px #FF7043;
+    background-color: #F4511E;
+    border: solid 2px #F4511E;
 }
 form.projectLink{
     display:inline-block;
@@ -382,8 +383,8 @@ button.projectLink {
     width:200px;
     font-size: 14px;
     line-height: 1.8;
-    background-color: #FF7043;
-    border: solid 2px #FF7043;
+    background-color: #F4511E;
+    border: solid 2px #F4511E;
 }
 button.githubLink{
     margin-top:10px;
@@ -446,6 +447,7 @@ div.ctaProject{
 }
 
 div.projectTile{
+    border-radius: 20px;
     height:400px;
     background-color:white;
     margin-bottom:33px;
@@ -453,7 +455,8 @@ div.projectTile{
 }
 
 div.projectTile:hover{
-    box-shadow: 2px 3px 12px #6161616a
+    box-shadow: 2px 3px 12px #6161616a;
+    transform: scale(1.01);
     /* -webkit-filter: grayscale(100%); */
 }
 
@@ -484,8 +487,25 @@ div.projectInfo{
     width: 100%;
     margin: auto;
   }
+
+  @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+
+    }
+    
+  }
   
   
   #mb_parallax_one {
-    /* background-image: url(../Backgroundwhite.jpg); */
+    background-image: url(../ChicagoBW.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
   }
