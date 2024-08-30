@@ -21,6 +21,7 @@ ul.nav-project li {
     padding: 14px 14px;
     text-decoration: none;
 }
+
 a{
     text-decoration:none;
 }
@@ -508,4 +509,70 @@ div.projectInfo{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+  }
+
+  #myTopnav{
+    position: fixed;
+  }
+
+  .topnav {
+    overflow: hidden;
+    width:100%;
+    background-color: #333;
+    z-index: 1;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:not(:first-child){
+    float:right;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: fixed;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+    }
+
+    .topnav.responsive a:first-child {
+        text-align:left;
+        max-width:200px;
+      }
+
   }
